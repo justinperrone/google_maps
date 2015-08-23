@@ -9,8 +9,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
   <body>
-  <div><a href="directions.html">DIRECTIONS</a></div>
-  <div><a href="search.html">SEARCH</a></div>
-  </body>
+    <button id="directions-btn">Directions</button>
+    <button id="search-btn">Search</button>
+    <div id='controls2'>
+      <input id="address" type="text" placeholder="City, State"></input>
+      <button id="s-btn">Submit</button>
+    </div>
+    <div id="panel">
+      <b>Start: </b>
+      <input id="start" type='text'>
+      </input>
+      <b>End: </b>
+      <input id="end" type='text'>
+      </input>
+      <button id="d-btn">GO</button>
+    </div>
 
+    <div id="map"></div>
+    <div id="directions-panel"></div>
+    <div id="pano"></div>
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+  <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+  
 </html>

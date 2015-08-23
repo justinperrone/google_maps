@@ -3,19 +3,37 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
 }
 
-div {
-  display: inline-block;
-  margin: auto;
+#panel {
+  display: none;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
 }
 
-a {
-  font-size: 3em;
-  background-color: red;
-  text-decoration: none;
-  color:white;
-  border-radius: 5px;
-  
+#controls2 {
+  display: none;
+  text-align: center;
 }
+
+#address, #btn {
+  font-size: 1.5em;
+}
+
+#directions-panel {
+  height: 100%;
+  width: 50%;
+  overflow: auto;
+  font-size: .5em;
+  float: left;
+}
+
+#map,
+#pano {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
