@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+#panel {
+  background-color: #fff;
+  border: 1px solid #999;
+  text-align: center;
+  padding: 1em 0;
+}
+
+#directions-panel {
+  display: none;
+  height: 100%;
+  width: 100%;
+  font-size: .5em;
+  overflow: auto;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: .2em;
+  margin-top: .8em;
+  margin-left: .5em;
+}

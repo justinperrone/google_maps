@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+#map,
+#pano {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+#controls2 {
+  text-align: center;
+  padding: 1em 0;
+}
+
+#address, #btn {
+  font-size: 1.5em;
+  border-radius: 5px;
+}
+
+a {
+  position: absolute;
+  top: 0;
+  left:0;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  padding: .2em;
+  margin-top: .5em;
+  margin-left: .2em;
+}
