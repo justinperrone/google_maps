@@ -1,0 +1,1 @@
+Used google maps API to create a custom page to get directions and geolocation. Also has a search feature with a side by side map and streetview.
